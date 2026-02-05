@@ -4,5 +4,5 @@
 
 
 SELECT Student.Studentid, FirstName, LastName, CourseName
-FROM Student JOIN Enrolment ON Student.Studentid = Enrolment.Enrolmentid
+FROM Student JOIN Enrolment ON Student.Studentid = Enrolment.Studentid
 JOIN Course ON Course.Courseid = Enrolment.Courseid
